@@ -4,30 +4,30 @@ mainboard_process_cmdline : "mainboard
 -d
 modules/control/control_component/dag/control.dag
 "
-mainboard_process_context_switches_involuntary_second : 237
-mainboard_process_context_switches_voluntary_second : 14509
-mainboard_process_cpu_usage : 0.118
-mainboard_process_cpu_usage_system : 0.012
-mainboard_process_cpu_usage_user : 0.105
+mainboard_process_context_switches_involuntary_second : 144
+mainboard_process_context_switches_voluntary_second : 13946
+mainboard_process_cpu_usage : 0.222
+mainboard_process_cpu_usage_system : 0.049
+mainboard_process_cpu_usage_user : 0.173
 mainboard_process_disk_read_bytes_second : 0
-mainboard_process_disk_write_bytes_second : 2048
-mainboard_process_faults_major : 0
-mainboard_process_faults_minor_second : 9
+mainboard_process_disk_write_bytes_second : 1638
+mainboard_process_faults_major : 6
+mainboard_process_faults_minor_second : 0
 mainboard_process_fd_count : 145
 mainboard_process_inblocks_second : 0
-mainboard_process_io_read_bytes_second : 524
+mainboard_process_io_read_bytes_second : 527
 mainboard_process_io_read_second : 5
-mainboard_process_io_write_bytes_second : 1199
-mainboard_process_io_write_second : 1
-mainboard_process_memory_data_and_stack : 619610112
-mainboard_process_memory_resident : 361496576
-mainboard_process_memory_shared : 103219200
+mainboard_process_io_write_bytes_second : 1159
+mainboard_process_io_write_second : 0
+mainboard_process_memory_data_and_stack : 615411712
+mainboard_process_memory_resident : 352550912
+mainboard_process_memory_shared : 98402304
 mainboard_process_memory_text : 331776
-mainboard_process_memory_virtual : 940920832
+mainboard_process_memory_virtual : 915734528
 mainboard_process_nice : 0
-mainboard_process_outblocks_second : 4
+mainboard_process_outblocks_second : 3
 mainboard_process_priority : 20
 mainboard_process_thread_count : 43
-mainboard_process_uptime : 1230.101349
+mainboard_process_uptime : 960.101504
 mainboard_process_username : "unknown (No such device or address)"
 mainboard_process_work_dir : "/apollo"
