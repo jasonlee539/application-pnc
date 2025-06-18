@@ -51,5 +51,6 @@
     },
     "git.ignoreLimitWarning": true,
     "search.useIgnoreFiles": false,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "C_Cpp.errorSquiggles": "enabled"
 }
