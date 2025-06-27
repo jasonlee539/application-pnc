@@ -4,30 +4,30 @@ mainboard_process_cmdline : "mainboard
 -d
 modules/control/control_component/dag/control.dag
 "
-mainboard_process_context_switches_involuntary_second : 146
-mainboard_process_context_switches_voluntary_second : 13671
-mainboard_process_cpu_usage : 0.251
-mainboard_process_cpu_usage_system : 0.104
-mainboard_process_cpu_usage_user : 0.147
+mainboard_process_context_switches_involuntary_second : 174
+mainboard_process_context_switches_voluntary_second : 13831
+mainboard_process_cpu_usage : 0.246
+mainboard_process_cpu_usage_system : 0.040
+mainboard_process_cpu_usage_user : 0.207
 mainboard_process_disk_read_bytes_second : 0
 mainboard_process_disk_write_bytes_second : 1638
 mainboard_process_faults_major : 0
 mainboard_process_faults_minor_second : 0
 mainboard_process_fd_count : 146
 mainboard_process_inblocks_second : 0
-mainboard_process_io_read_bytes_second : 560
+mainboard_process_io_read_bytes_second : 561
 mainboard_process_io_read_second : 5
-mainboard_process_io_write_bytes_second : 1156
+mainboard_process_io_write_bytes_second : 1157
 mainboard_process_io_write_second : 0
-mainboard_process_memory_data_and_stack : 616460288
-mainboard_process_memory_resident : 371359744
-mainboard_process_memory_shared : 116293632
+mainboard_process_memory_data_and_stack : 618557440
+mainboard_process_memory_resident : 389021696
+mainboard_process_memory_shared : 131203072
 mainboard_process_memory_text : 331776
-mainboard_process_memory_virtual : 908558336
+mainboard_process_memory_virtual : 994607104
 mainboard_process_nice : 0
 mainboard_process_outblocks_second : 3
 mainboard_process_priority : 20
 mainboard_process_thread_count : 43
-mainboard_process_uptime : 2460.363558
+mainboard_process_uptime : 6220.953156
 mainboard_process_username : "unknown (No such device or address)"
 mainboard_process_work_dir : "/apollo"
