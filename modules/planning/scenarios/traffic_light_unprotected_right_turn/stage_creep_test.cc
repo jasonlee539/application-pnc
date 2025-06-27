@@ -26,26 +26,23 @@ namespace apollo {
 namespace planning {
 
 class TrafficLightUnprotectedRightTurnStageCreepTest : public ::testing::Test {
- public:
-  virtual void SetUp() {
-    config_.set_name("TRAFFIC_LIGHT_UNPROTECTED_RIGHT_TURN_STOP");
-    injector_ = std::make_shared<DependencyInjector>();
-  }
+public:
+    virtual void SetUp() {
+        config_.set_name("TRAFFIC_LIGHT_UNPROTECTED_RIGHT_TURN_STOP");
+        injector_ = std::make_shared<DependencyInjector>();
+    }
 
- protected:
-  StagePipeline config_;
-  std::shared_ptr<DependencyInjector> injector_;
-  TrafficLightUnprotectedRightTurnContext context_;
+protected:
+    StagePipeline config_;
+    std::shared_ptr<DependencyInjector> injector_;
+    TrafficLightUnprotectedRightTurnContext context_;
 };
 
 TEST_F(TrafficLightUnprotectedRightTurnStageCreepTest, Init) {
-  TrafficLightUnprotectedRightTurnStageCreep
-      traffic_light_unprotected_right_turn_stage_creep;
-  traffic_light_unprotected_right_turn_stage_creep.Init(
-      config_, injector_, "scenarios/traffic_light_unprotected_right_turn/conf",
-      &context_);
-  EXPECT_EQ(traffic_light_unprotected_right_turn_stage_creep.Name(),
-            ("TRAFFIC_LIGHT_UNPROTECTED_RIGHT_TURN_STOP"));
+    TrafficLightUnprotectedRightTurnStageCreep traffic_light_unprotected_right_turn_stage_creep;
+    traffic_light_unprotected_right_turn_stage_creep.Init(
+            config_, injector_, "scenarios/traffic_light_unprotected_right_turn/conf", &context_);
+    EXPECT_EQ(traffic_light_unprotected_right_turn_stage_creep.Name(), ("TRAFFIC_LIGHT_UNPROTECTED_RIGHT_TURN_STOP"));
 }
 
 }  // namespace planning

@@ -1,2 +1,2 @@
-static_obstacle_buffer: 0.2
+static_obstacle_buffer: 0.1
 skip_overlap_stop_check: true

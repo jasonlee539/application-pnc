@@ -31,18 +31,16 @@ namespace planning {
 struct TrafficLightUnprotectedRightTurnContext;
 
 class TrafficLightUnprotectedRightTurnStageStop : public Stage {
- public:
-  StageResult Process(const common::TrajectoryPoint& planning_init_point,
-                      Frame* frame) override;
+public:
+    StageResult Process(const common::TrajectoryPoint& planning_init_point, Frame* frame) override;
 
- private:
-  bool CheckTrafficLightNoRightTurnOnRed(const std::string& traffic_light_id);
+private:
+    bool CheckTrafficLightNoRightTurnOnRed(const std::string& traffic_light_id);
 
-  StageResult FinishStage(const bool protected_mode);
+    StageResult FinishStage(const bool protected_mode);
 };
 
-CYBER_PLUGIN_MANAGER_REGISTER_PLUGIN(
-    apollo::planning::TrafficLightUnprotectedRightTurnStageStop, Stage)
+CYBER_PLUGIN_MANAGER_REGISTER_PLUGIN(apollo::planning::TrafficLightUnprotectedRightTurnStageStop, Stage)
 
 }  // namespace planning
 }  // namespace apollo
