@@ -1,0 +1,11 @@
+extend_adc_buffer: 0.5
+change_lane_success_freeze_time: 1.5
+change_lane_fail_freeze_time: 0.2
+path_optimizer_config {
+  l_weight: 1.0
+  dl_weight: 5.0
+  ddl_weight: 100.0
+  dddl_weight: 1000.0
+  path_reference_l_weight: 10.0
+  lateral_derivative_bound_default: 3.0
+}

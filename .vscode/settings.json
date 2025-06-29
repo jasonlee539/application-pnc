@@ -47,7 +47,8 @@
         "hash_set": "cpp",
         "rope": "cpp",
         "slist": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "utility": "cpp"
     },
     "git.ignoreLimitWarning": true,
     "search.useIgnoreFiles": false,

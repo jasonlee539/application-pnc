@@ -1,0 +1,3 @@
+<library path="modules/planning/traffic_rules/region_speed_limit/libregion_speed_limit.so">
+    <class type="apollo::planning::RegionSpeedLimit" base_class="apollo::planning::TrafficRule"></class>
+</library>

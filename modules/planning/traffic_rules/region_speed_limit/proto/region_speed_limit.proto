@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+package apollo.planning;
+
+message RegionSpeedLimitConfig {
+  // 声明RegionSpeedLimitConfig中的数据结构
+  optional double forward_buffer = 1 [default = 3];
+  optional double backward_buffer = 2 [default = 2];
+  optional double limit_speed = 3 [default = 5];
+}
